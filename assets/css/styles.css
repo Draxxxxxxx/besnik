@@ -65,7 +65,7 @@ a {
 }
 
 .hero-wrap {
-    height: 100vh;
+    height: calc(100vh - 102px);
     background: #e6f0ff;
     position: relative;
 }
