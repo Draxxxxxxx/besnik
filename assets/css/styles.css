@@ -84,7 +84,7 @@ a {
 }
 
 .navbar ul a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .navbar .action-link {
@@ -595,6 +595,10 @@ a {
     white-space: nowrap;
 }
 
+.footer .item a:hover {
+    text-decoration: underline;
+}
+
 .footer .desc {
     white-space: normal;
     line-height: 1.75;
@@ -615,6 +619,8 @@ a {
     background: #f9f9f9;
     border-radius: 8px;
 }
+
+
 
 .footer .social .social-link:hover {
     background-color: #ededed;
