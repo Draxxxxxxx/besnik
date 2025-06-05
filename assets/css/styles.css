@@ -8,6 +8,11 @@
     --font-weight-normal: 500;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
     height: 10000px;
@@ -16,6 +21,13 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
+}
+
+#features,
+#services,
+#resources,
+#contact {
+    scroll-margin-top: 160px;
 }
 
 /* Common */
@@ -61,7 +73,6 @@ a {
     position: sticky;
     top: -14px;
     z-index: 1;
-
 }
 
 .hero-wrap {
